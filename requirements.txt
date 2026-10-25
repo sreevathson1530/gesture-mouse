@@ -1,0 +1,8 @@
+# Gesture Mouse - Windows (Python 3.9 - 3.12)
+# MediaPipe has no wheels for Python 3.13+ yet.
+mediapipe==0.10.21      # last release that still ships the classic solutions.hands API
+opencv-python==4.11.0.86
+numpy==1.26.4           # mediapipe 0.10.x is built against numpy 1.x
+PyAutoGUI==0.9.54
+pystray==0.19.5         # system tray icon and menu
+pillow==13.0.0          # tray icon drawing
